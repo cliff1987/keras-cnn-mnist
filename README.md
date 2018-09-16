@@ -2,5 +2,6 @@
 Simple example on how to use keras to create a CNN and use mnist data set
 
 # Install CUDA
-First install CUDA Toolkit. I recommend version 9.0
-https://developer.nvidia.com/cuda-90-download-archive?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exelocal
+* First install CUDA Toolkit. This version has to be compatible with Tensorflow. I can recommend 9.0 and 9.1
+* Download the correct cudnn version which fits to the CUDA toolkit
+* Unpack the cudnn files into the installed CUDA toolkit directory
